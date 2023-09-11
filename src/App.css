@@ -1,0 +1,77 @@
+.navbar{
+  background: #9d8189;
+  padding: 10px;
+  margin-top: 0px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+}
+.homepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.headshot{
+  border: 1px solid black;
+  height: 200px;
+  width: auto;
+}
+.name{
+  margin-bottom: 0px;
+}
+.title{
+
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about h2{
+  text-decoration-line: underline;
+}
+.about p{
+  width: 500px;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects h2{
+  text-decoration-line: underline;
+}
+.recipeDiv{
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipeHomepage{
+  border: 1px solid black;
+  height: 200px;
+  width: auto;
+  margin: 5px;
+}
+
+.recipeDiv p{
+  width: 250px;
+}
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume h2{
+  text-decoration-line: underline;
+}
+iframe{
+  width: 85%;
+  height: 400px;
+}
