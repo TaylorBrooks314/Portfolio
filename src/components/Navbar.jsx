@@ -2,56 +2,58 @@
 import { Link } from "react-router-dom"
 export default function Navbar({location}) {
   return (
-   <div>
+   <div className="navbar">
     {location.home&&
     
-     <ul className="navbar">
-        <li>
-            <Link to={'/about'}>About</Link>
+     <ul className="navList">
+        <li className="Link">
+          <div >
+            <Link to={'/about'}>About </Link>
+          </div>
         </li>
-        <li>
-          <Link to={'/resume'}>Resume</Link>
+        <li className="Link">
+          <Link to={'/resume'}> Resume </Link>
         </li>
-        <li>
-            <Link to={'/projects'}>Projects</Link>
+        <li className="Link">
+            <Link to={'/projects'}> Projects </Link>
         </li>
     </ul>
     }
     {location.about&&
-      <ul className="navbar">
-        <li>
-          <Link to={'/'}>Homepage</Link>
+      <ul className="navList">
+        <li className="Link">
+          <Link to={'/'}>Home</Link>
         </li>
-        <li>
+        <li className="Link">
           <Link to={'/resume'}>Resume</Link>
         </li>
-        <li>
+        <li className="Link">
             <Link to={'/projects'}>Projects</Link>
         </li>
       </ul>
     }
     {location.resume&&
-      <ul className="navbar">
-        <li>
-          <Link to={'/'}>Homepage</Link>
+      <ul className="navList">
+        <li className="Link">
+          <Link to={'/'}>Home</Link>
         </li>
-        <li>
+        <li className="Link">
           <Link to={'/about'}>About</Link>
         </li>
-        <li>
+        <li className="Link">
             <Link to={'/projects'}>Projects</Link>
         </li>
       </ul>
     }
      {location.projects&&
-      <ul className="navbar">
-        <li>
-          <Link to={'/'}>Homepage</Link>
+      <ul className="navList">
+        <li className="Link">
+          <Link to={'/'}>Home</Link>
         </li>
-        <li>
+        <li className="Link">
             <Link to={'/about'}>About</Link>
         </li>
-        <li>
+        <li className="Link">
           <Link to={'/resume'}>Resume</Link>
         </li>
       </ul>

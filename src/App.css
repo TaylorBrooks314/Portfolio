@@ -1,49 +1,110 @@
+*{
+  font-family: cursive;
+}
+
+/*------ NavBar------ */
 .navbar{
-  background: #9d8189;
-  padding: 10px;
+  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  background-size: 100%;
+  padding: 5px;
   margin-top: 0px;
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.Link{
+  border: 1px solid white;
+  border-radius: 30%;
+  background-color: white;
+  text-align: center;
+}
+.navList{
   display: flex;
-  list-style-type: none;
   justify-content: center;
   justify-content: space-around;
+  list-style-type: none;
   font-size: 20px;
   font-weight: bold;
+  
 }
+
+
+/* ------Homepage----- */
 .homepage{
+  height: 100%;
+  width:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  padding-top: 100px;
+  padding-bottom: 150px ;
+  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  background-size: cover;
+  color: white;
+  position: relative;
 }
-.headshot{
-  border: 1px solid black;
-  height: 200px;
-  width: auto;
-}
+
 .name{
   margin-bottom: 0px;
 }
-.title{
-
+.headshot{
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+.connect{
+  position: absolute;
+  left:0px;
+  bottom: 0px;
+  display:flex;
+  justify-content: space-around;
+}
+.github{
+  height:30px;
+  background-color: white;
+  margin: 5px;
+}
+.linkedin{
+  margin:5px;
+  padding:1px;
+  background-color: white;
+}
+/* -------About------- */
 .about{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  background-size: cover;
+  color: white;
 }
 .about h2{
   text-decoration-line: underline;
 }
 .about p{
   width: 500px;
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px;
 }
+.lastp{
+  margin-bottom: 100px;
+}
+/*-------- Projects------- */
 .projects{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  background-size: cover;
+  padding-bottom: 100px;
 }
 .projects h2{
   text-decoration-line: underline;
+  color: white;
 }
 .recipeDiv{
   border: 3px solid black;
@@ -51,6 +112,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 .recipeHomepage{
@@ -58,15 +120,21 @@
   height: 200px;
   width: auto;
   margin: 5px;
+  padding: 10px;
+  background-color: black;
 }
 
 .recipeDiv p{
   width: 250px;
 }
+/* -------Resume--------- */
 .resume{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  background-size: cover;
+  color: white;
 }
 .resume h2{
   text-decoration-line: underline;
@@ -74,4 +142,5 @@
 iframe{
   width: 85%;
   height: 400px;
+  margin-bottom: 50px;
 }
