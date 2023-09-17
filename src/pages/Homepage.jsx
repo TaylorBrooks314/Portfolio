@@ -2,8 +2,8 @@
 import Image from '../assets/Taylor-Brooks.jpg'
 import { useEffect } from 'react'
 import Typed from 'react-typed'
-import github from '../assets/GitHub_Logo.png'
-import linkedin from '../assets/LinkedIn-Blue-14@2x.png'
+import Cert from '../assets/TaylorBrookscert.png'
+import About from './About'
 export default function Homepage(props){
     useEffect(()=>{
         props.setLocation({
@@ -30,14 +30,11 @@ export default function Homepage(props){
                 loop/>
 
         </h2>
-        <div className='connect'>
-            <a href="https://github.com/TaylorBrooks314">
-                <img src={github} alt="GitHub"  className='github'/>
-            </a>
-            <a href="https://www.linkedin.com/in/taylor-brooks-72a501269/">
-                <img src={linkedin} alt="Linkedin"  className='linkedin'/>
-            </a>
-        </div>
+        <About/>
+        <h2>
+            Certifications
+        </h2>
+        <img src={Cert} alt="Activate Work Bootcamp Certification"  className='AWCert'/>
     </div>
     )
 }

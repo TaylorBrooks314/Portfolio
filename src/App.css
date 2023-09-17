@@ -1,10 +1,10 @@
 *{
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /*------ NavBar------ */
 .navbar{
-  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  /* background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph); */
   background-size: 100%;
   padding: 5px;
   margin-top: 0px;
@@ -13,7 +13,7 @@
 }
 
 .Link{
-  border: 1px solid white;
+  /* border: 1px solid black; */
   border-radius: 30%;
   background-color: white;
   text-align: center;
@@ -50,49 +50,61 @@
 .headshot{
   border: 1px solid white;
   border-radius: 50%;
-  height: 100px;
+  height: 200px;
   width: auto;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.connect{
+/* .connect{
   position: absolute;
   left:0px;
   bottom: 0px;
   display:flex;
   justify-content: space-around;
-}
-.github{
+} */
+ .github{
+  border: 1px solid black;
   height:30px;
   background-color: white;
   margin: 5px;
 }
 .linkedin{
+  border: 1px solid black;
   margin:5px;
   padding:1px;
   background-color: white;
-}
+} 
 /* -------About------- */
 .about{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  /* background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph); */
   background-size: cover;
-  color: white;
+  color: black;
 }
 .about h2{
   text-decoration-line: underline;
+  color: white;
 }
+
 .about p{
-  width: 500px;
-  background-color: black;
-  border: 1px solid white;
+  width: 50%;
+  background-color: white;
   padding: 5px;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.lastp{
-  margin-bottom: 100px;
+.homepage h2{
+  text-decoration-line: underline;
+
 }
+.AWCert{
+  width: 50%;
+}
+
 /*-------- Projects------- */
 .projects{
   display: flex;
@@ -120,8 +132,15 @@
   height: 200px;
   width: auto;
   margin: 5px;
-  padding: 10px;
+  padding: 5px;
   background-color: black;
+}
+.proLink{
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  margin: 3px;
+  padding: 3px;
 }
 
 .recipeDiv p{
@@ -143,4 +162,26 @@ iframe{
   width: 85%;
   height: 400px;
   margin-bottom: 50px;
+}
+.icon{
+  background-color: white;
+}
+@media screen and (max-width: 280px){
+  .navList{
+    flex-direction: column;
+  }
+  .name{
+    width:50%;
+    height: auto;
+  }
+
+  .about p{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  
 }
