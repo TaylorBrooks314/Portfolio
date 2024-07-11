@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom"
 import github from '../assets/GitHub_Logo.png'
 import linkedin from '../assets/LinkedIn-Blue-14@2x.png'
 export default function Navbar({location}) {
@@ -9,10 +8,10 @@ export default function Navbar({location}) {
     
      <ul className="navList">
         <li className="Link">
-          <Link to={'/resume'}> Resume </Link>
+          <a href='/resume'> Resume </a>
         </li>
         <li className="Link">
-            <Link to={'/projects'}> Projects </Link>
+            <a href='/projects'> Projects </a>
         </li>
         <div className='connect'>
             <a href="https://github.com/TaylorBrooks314">
@@ -24,26 +23,13 @@ export default function Navbar({location}) {
         </div>
     </ul>
     }
-    {/* {location.about&&
-      <ul className="navList">
-        <li className="Link">
-          <Link to={'/'}>Home</Link>
-        </li>
-        <li className="Link">
-          <Link to={'/resume'}>Resume</Link>
-        </li>
-        <li className="Link">
-            <Link to={'/projects'}>Projects</Link>
-        </li>
-      </ul>
-    } */}
     {location.resume&&
       <ul className="navList">
         <li className="Link">
-          <Link to={'/'}>Home</Link>
+          <a href='/'>About</a>
         </li>
         <li className="Link">
-            <Link to={'/projects'}>Projects</Link>
+            <a href='/projects'>Projects</a>
         </li>
         <div className='connect'>
             <a href="https://github.com/TaylorBrooks314">
@@ -58,10 +44,10 @@ export default function Navbar({location}) {
      {location.projects&&
       <ul className="navList">
         <li className="Link">
-          <Link to={'/'}>Home</Link>
+          <a href='/'>About</a>
         </li>
         <li className="Link">
-          <Link to={'/resume'}>Resume</Link>
+          <a href='/resume'>Resume</a>
         </li>
         <div className='connect'>
             <a href="https://github.com/TaylorBrooks314">

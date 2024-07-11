@@ -1,32 +1,35 @@
-*{
-  /* font-family: cursive; */
-}
 
 /*------ NavBar------ */
-.navbar{
-  /* background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph); */
-  background-size: 100%;
-  padding: 5px;
-  margin-top: 0px;
-  /* display: flex; */
-  /* justify-content: space-around; */
-}
 
+.Link a {
+  font-size: 30px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
 .Link{
-  /* border: 1px solid black; */
-  border-radius: 30%;
+  align-items: center;
   background-color: white;
   text-align: center;
 }
 .navList{
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   list-style-type: none;
-  font-size: 20px;
-  font-weight: bold;
-  
 }
+.github{
+ border: 1px solid black;
+ height:30px;
+ background-color: white;
+ margin: 5px;
+}
+.linkedin{
+ border: 1px solid black;
+ margin:5px;
+ padding:1px;
+ background-color: white;
+} 
 
 
 /* ------Homepage----- */
@@ -36,71 +39,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 150px ;
-  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
-  background-size: cover;
-  color: white;
-  position: relative;
 }
 
-.name{
-  margin-bottom: 0px;
-}
 .headshot{
-  border: 1px solid white;
-  border-radius: 50%;
   height: 200px;
   width: auto;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* .connect{
-  position: absolute;
-  left:0px;
-  bottom: 0px;
-  display:flex;
-  justify-content: space-around;
-} */
- .github{
-  border: 1px solid black;
-  height:30px;
-  background-color: white;
-  margin: 5px;
+
+.Typed {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
 }
-.linkedin{
-  border: 1px solid black;
-  margin:5px;
-  padding:1px;
-  background-color: white;
-} 
+
 /* -------About------- */
 .about{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph); */
-  background-size: cover;
   color: black;
-}
-.about h2{
-  text-decoration-line: underline;
-  color: white;
 }
 
 .about p{
   width: 50%;
-  background-color: white;
   padding: 5px;
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 0;
   margin-bottom: 0;
 }
-.homepage h2{
-  text-decoration-line: underline;
 
-}
 .AWCert{
   width: 50%;
 }
@@ -110,13 +79,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
+  /* background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph); */
   background-size: cover;
   padding-bottom: 100px;
-}
-.projects h2{
-  text-decoration-line: underline;
-  color: white;
 }
 .recipeDiv{
   border: 3px solid black;
@@ -137,10 +102,12 @@
 }
 .proLink{
   border: 1px solid black;
-  color: white;
-  background-color: black;
+  color: black;
   margin: 3px;
   padding: 3px;
+}
+.proLink:hover {
+  background-color: lightgray;
 }
 
 .recipeDiv p{
@@ -151,37 +118,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.1.909629623.1693878013&semt=sph);
   background-size: cover;
-  color: white;
-}
-.resume h2{
-  text-decoration-line: underline;
 }
 iframe{
   width: 85%;
-  height: 400px;
+  height: 1115px;
   margin-bottom: 50px;
-}
-.icon{
-  background-color: white;
 }
 @media screen and (max-width: 280px){
   .navList{
     flex-direction: column;
   }
-  .name{
-    width:50%;
-    height: auto;
-  }
-
-  .about p{
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-
-  
 }

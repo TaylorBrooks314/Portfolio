@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Image from '../assets/Taylor-Brooks.jpg'
 import { useEffect } from 'react'
-import Typed from 'react-typed'
+import {ReactTyped} from 'react-typed'
 import Cert from '../assets/TaylorBrookscert.png'
 import About from './About'
 export default function Homepage(props){
@@ -18,9 +18,8 @@ export default function Homepage(props){
        
         <h1 className='name'>Taylor Brooks</h1>
         <img src={Image} alt="headshot" className='headshot'/>
-        {/* <p className='title'>Software Engineer</p> */}
         <h2>
-            <Typed
+            <ReactTyped  className='Typed'
             strings={[
                 'Hello, my name is Taylor Brooks.',
                 'I am a full stack software engineer.',

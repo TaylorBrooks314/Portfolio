@@ -28,13 +28,8 @@ export default function About() {
         like communication and time management.
       </p>
       <p className="p3">
-        Now that I have graduated, my main focus is learning as much coding as I can 
-        and getting as much experience as I can. I have some ideas for personal projects I will be 
-        working on and developing over these next few weeks and I plan to join a hackathon that takes
-        place in October of 2023. My main motivation for coding is that fact that it provides me with 
-        chance to use my knowledge and problem solving skills to create something that can be a solution
-        to someone's issues and impact their life. This leads me to find a company to work for that is
-        people and mission oriented. 
+        Post graduation, I found an opportunity to become a Software Engineer Apprentice and leaped at it. That apprenticeship program began with 18 weeks of training where I continued to develop my skills in Javascript, HTML, CSS and gain new skills such as PostgreSQL and Java. I graduated from training in July of 2024. My main focus after training will be to get more experience wokring within a company. My main motivation for coding is that fact that it provides me with chance to use my knowledge and problem solving skills to create something that can be a solution
+        to someone's issues and impact their life. This leads me to find a company to work for that is people and mission oriented. 
       </p>
       <p className="lastp">
         When I am not coding you can find me fishing, hiking, hanging out with my husband and son, 
