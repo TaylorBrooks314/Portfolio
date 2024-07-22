@@ -1,17 +1,6 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/no-unescaped-entities */
 
-// import { useEffect } from "react"
 
 export default function About() {
-//  useEffect(()=>{
-//   props.setLocation({
-//         home:false,
-//         about:true,
-//         resume:false,
-//         projects:false
-//     })
-//  },[])
   return (
     <div className="about">
       <h2>About Me</h2>
